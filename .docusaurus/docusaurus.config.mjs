@@ -88,10 +88,6 @@ export default {
           "to": "guides",
           "className": "guides-top-header",
           "position": "left"
-        },
-        {
-          "type": "search",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
