@@ -58,7 +58,7 @@ export default function HelpSection({ className = '' }) {
               This comprehensive guide is designed to assist developers in integrating and leveraging the functionalities of our tool.
             </p>
             <Link
-              href="https://supportdocs.vuetag.ai/api/#/"
+              href="https://supportdocs.vuetag.ai/guides/api-reference/async_tagging"
               className="text-primary dark:text-primary-100"
             >
               Take me there &rarr;
