@@ -1,0 +1,189 @@
+:root {
+  --card-border-light: #d6d6d6; /* Light theme border color */
+  --card-shadow-light: 0 4px 8px 0 rgba(244, 244, 244, 0.6); /* Light theme shadow color and intensity */
+
+  /* Default values for light theme */
+  --card-border: var(--card-border-light);
+  --card-shadow: var(--card-shadow-light);
+}
+
+[data-theme='dark'] {
+  --card-border-dark: #555555; /* Dark theme border color */
+  --card-shadow-dark: 0 4px 8px 0 rgba(0, 0, 0, 0.6); /* Dark theme shadow color and intensity */
+
+  /* Assign dark theme specific values */
+  --card-border: var(--card-border-dark);
+  --card-shadow: var(--card-shadow-dark);
+}
+
+.hub-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+.ComponentHub-Cards {
+  width: 400px; /* Increased width */
+  height: 300px; /* Decreased height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px;
+  margin: 0;
+  padding: 20px 20px 12px;
+  border-radius: 4px;
+  background-color: var(--ifm-card-background-color);
+  text-decoration: none;
+  border: 1px solid var(--docs-color-primary-tint); /* Use theme-specific border color */
+  box-shadow: var(--docs-color-primary-tint); /* Use theme-specific shadow */
+  
+}
+
+
+
+
+.Hub-Placeholder {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: var(--ifm-color-primary);
+}
+
+.Icon32pxData-Hub {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.Data-Hub, .Coming-Soon {
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 15px;
+  font-weight: bold; /* Ensure text is bold */
+  line-height: 1.36;
+  color: var(--ifm-font-color-base);
+}
+
+.Collect-Data-Enrich-Analyse-the-tags-generated {
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--ifm-font-color-secondary);
+}
+
+.ComponentsButtonOutlined, .ComponentsButton {
+  width: 246px;
+  height: 36px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  border-radius: 4px;
+  border: var(--ifm-link-color)
+ 
+}
+
+/* .hub-card-button {
+  width: 100%;
+  padding: 10px;
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 10px;
+  color: var(--ifm-link-color);
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 2px; 
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+.hub-card-button {
+  position: relative; /* Needed to properly position the :after pseudo-element */
+  overflow: hidden; /* Ensures the pseudo-element does not extend outside the button */
+  width: 100%;
+  padding: 10px;
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 12px;
+  color: var(--ifm-link-color); /* Default color, will change on hover */
+  background-color: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-align: left;
+  cursor: pointer;
+  margin-bottom: 2px; 
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px; /* Adjusted to match the new button style */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+
+.hub-card-button:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #2700b5; /* Deep blue background */
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+  7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+  4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+.hub-card-button:hover {
+  fill: #1e1e1e; /* White text on hover */
+}
+
+.hub-card-button:hover:after {
+  left: 0;
+  width: 100%; /* Expands the pseudo-element to cover the entire button on hover */
+}
+
+.hub-card-button:active {
+  top: 2px; /* Simulates a button press effect */
+}
+
+
+.hub-card-button.AdditionalButton {
+  margin-top: 2px;
+  text-decoration: none;
+}
+
+.hub-card-button:hover {
+  text-decoration: none;
+}
+
+.ViewMoreButton {
+  background-color: transparent;
+  border: none;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.ViewMoreButton:hover {
+  text-decoration: none;
+}
+
+.Coming-Soon {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Vector {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}

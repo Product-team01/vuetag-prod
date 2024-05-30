@@ -1,0 +1,96 @@
+---
+sidebar_position: 1
+---
+# Attribute Extraction - Feedback
+
+This API accepts feedback on attributes for any given mad_id.
+
+### Request
+
+#### Request Type
+
+POST
+
+#### Request Headers
+
+    
+```bash
+Content-Type: application/json
+```
+
+
+#### Endpoint
+
+The base URL will be provided to you at the time of onboarding.
+
+```bash
+POST <base_url>/api/v1/feedback
+```
+
+#### Request Parameters
+
+
+|properties|datatype|description|
+|----------------|-----------------|-------------|
+|version|string|Version of inference graph used|
+|status|string|Status of the request. Allowed values: PENDING/SUCCESS/FAILURE|
+|request_id|string|Unique identifier of the request|
+|mad_id|string|Unique identifier of a datapoint|
+|input_data|object|Input data sent in the request|
+|output|List of objects|Inference result of every object identified|
+|output[0] -> object_id|string|Unique identifier of a object|
+|output[0]->inferences|list of objects|Inference data for every attribute in your taxonomy|
+|output[0]->inferences[0]-> id|string|Uniqueidentifier of an attribute|
+|output[0]->inferences[0]-> name|string|Name of an attribute|
+|output[0]->inferences[0]-> feedback_values|list of string|Values that the attribute should hold as defined in the taxonomy|
+
+#### Response Status Code
+
+Status codes indicate if the response was successful or not. For the different response codes we return, please refer
+the table below:
+
+| Status Code | Description                                     |
+|-------------|-------------------------------------------------|
+| 200         | Successful                                      |
+
+#### Error Response Parameters
+
+
+|properties|datatype|description|
+|----------------|-----------------|-------------|
+|status|string|Status of the request. Allowed values: PENDING/SUCCESS/FAILURE|
+|mad_id|string|Unique identifier of the request|
+|errors|List of object|Represents error encountered|
+|errors[0]->code|string|Unique code of the error returned|
+|errors[0]->message|string|Description of the error message|
+
+
+
+#### Request Response Structure
+
+```Json
+POST /infer/feedback
+
+Request Body
+{
+   "version":"",
+   "status":"",
+   "correlation_key":"",
+   "mad_id":"",
+   "input_data":{
+     "image_url":[""]
+   },
+   "output":[{
+        "object_id":"",
+        "inferences":[{
+                "id":"",
+                "name":"",
+                "hierarchy":"",
+                "feedback_values": []
+        }]
+    }]
+}
+
+Response 200 OK
+
+```

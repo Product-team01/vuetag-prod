@@ -1,0 +1,168 @@
+---
+sidebar_position: 1
+---
+# Attribute Extraction - Synchronous
+
+import Notes from '../../src/components/notes';
+import CodeHighlighter from '../../src/components/code-highlighter';
+import { sync1, sync2 } from './constants/apiParams';
+
+This API returns AI powered product tags.
+
+
+### Request
+
+#### Request Type
+
+POST
+
+#### Request Headers
+
+    
+```bash
+Content-Type: application/json
+```
+
+
+#### Endpoint
+
+The base URL will be provided to you at the time of onboarding.
+
+```bash
+POST <base_url>/api/v1/infer
+```
+
+#### Request Parameters
+
+| Param          | Type            | Required    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------|-----------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| correlation_id| string          | no         | Reference key to identify each request |
+| input          | object          | yes        | Represents fields that are used by the inference service to infer data. This object should adhere to the schema definition.|
+| rules          | list of objects | no         | pass values to apply rules. We support predefined rules which applies on the output data. Example: If in a full body image, if the inference should be applied only if the value of the Category is Dress, we can pass this information in rules.|
+
+#### Rule Object
+
+| Param          | Type            | Required    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------|-----------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| type | string          | yes         |  predefined type of rule to be applied on the output or in the inference process|
+| Values          | array of objects        | yes        | values to be applied as an input to the rule execution. Each object is a dictionary customized to the associated to the rule.|
+
+#### Supported Rules
+
+|rule                    |description|
+|------------------------|-----------------|
+|force_taxonomy_hierarchy|When added, the extraction is enforced for this hierarchy. The value object represents the category attribute and the value that should be used to identify the primary object to which generate tags for in an multi-object image.|
+
+
+### Response
+
+The response will have all the attributes extracted from the image.
+
+#### Response Parameters
+
+
+|properties|datatype|description|
+|----------------|-----------------|-------------|
+|version|string|Version of inference graph used|
+|status|string|Status of the request. Allowed values: PENDING/SUCCESS/FAILURE|
+|request_id|string|Unique identifier of the request|
+|mad_id|string|Unique identifier of a datapoint|
+|input_data|object|Input data sent in the request|
+|output|List of objects|Inference result of every object identified|
+|output[0] -> object_id|string|Unique identifier of a object|
+|output[0]->inferences|list of objects|Inference data for every object identified in the input data. Example, an image can contain shoes, bags, the models detects them and extracts relavant attribute and values for each of them.|
+|output[0]->inferences[0]-> id|string|Uniqueidentifier of an attribute|
+|output[0]->inferences[0]-> name|string|Name of an attribute|
+|output[0]->inferences[0]-> hierarchy|string|Represents hierarchy of the attribute in the taxonomy. Example, Color is an attribute that is defined for almost all objects that are models identify. We can detect color of a dress, bag etc. In this case, when the model detects color of a bag, then the hierarchy will be Category>Dress>Color|
+|output[0]->inferences[0]-> result|List of objects|Values derived for attribute. Our models can detect more than one value for an attribute. Example, pattern can be Animal Print with Stripes. This object will then return both the values with the associated confidence. |
+|output[0]->inferences[0]-> result[0]->prediction|string|Value predicted for attribute|
+|output[0]->inferences[0]-> result[0]-> prediction_box|array|Bounding box of the value|
+|output[0]->inferences[0]-> result[0]-> confidence|float|confidence of the predicted value. Allowed values: [0..1]|
+
+#### Response Status Code
+
+Status codes indicate if the response was successful or not. For the different response codes we return, please refer
+the table below:
+
+| Status Code | Description                                     |
+|-------------|-------------------------------------------------|
+| 200         | Successful                                      |
+
+#### Error Response Parameters
+
+
+|properties|datatype|description|
+|----------------|-----------------|-------------|
+|status|string|Status of the request. Allowed values: PENDING/SUCCESS/FAILURE|
+|mad_id|string|Unique identifier of the request|
+|errors|List of object|Represents error encountered|
+|errors[0]->code|string|Unique code of the error returned|
+|errors[0]->message|string|Description of the error message|
+
+
+#### Request Structure
+
+```Json
+POST <base_url>/api/v1/infer?is_sync=true
+
+{
+   "correlation_id": "",
+   "input_data":{
+      "image_url":["http://tag.com/1.url", "http://tag.com/2.url"]
+   }
+}
+```
+
+#### Response Structure
+
+```Json
+{
+   "correlation_id": "",
+   "version":"",
+   "status":"",
+   "request_id":"",
+   "mad_id":"",
+   "input_data":{
+      "image_url":["http://tag.com/1.url", "http://tag.com/2.url"]
+   }
+   "output":[{
+        "object_id":"",
+        "inferences":[{
+                "id":"",
+                "name":"",
+                "hierarchy":"",
+                "result":[{
+                    "confidence":"",
+                    "prediction":"",
+                    "prediction_box":""
+                }]
+        }]
+    }]
+}
+
+```
+
+### Example 1 - Single Object Image Request
+Synchronous Inference request for a single object image
+
+#### Request
+
+<CodeHighlighter
+   headers={sync1?.headers}
+   body={sync1?.body}
+   url={sync1?.url}  
+/>
+
+
+
+### Example 2 - Multiple Object Image Request
+Synchronous Inference request for a multiple object image
+
+#### Request
+
+<CodeHighlighter
+   headers={sync2?.headers}
+   body={sync2?.body}
+   url={sync2?.url}  
+/>
+

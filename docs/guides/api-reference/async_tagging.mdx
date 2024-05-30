@@ -1,0 +1,224 @@
+---
+sidebar_position: 1
+---
+# Attribute Extraction - Asynchronous 
+
+import Notes from '../../src/components/notes';
+
+This API returns AI powered product tags asynchronously. We also support sending back responses to a client hosted callback URL when the response is ready. 
+Response structure of the get inference API and callback API are the same.
+
+
+### Request
+
+#### Request Type
+
+POST
+
+#### Request Headers
+
+    
+```bash
+Content-Type: application/json
+```
+
+
+#### Endpoint
+
+The base URL will be provided to you at the time of onboarding.
+
+```bash
+POST <base_url>/api/v1/infer
+```
+
+#### Request Parameters
+
+| Param          | Type            | Required    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------|-----------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| correlation_id | string          | no         | Reference key to identify each request |
+| input          | object          | yes        | Represents fields that are used by the inference service to infer data. This object should adhere to the schema definition.|
+| rules          | list of objects | no         | pass values to apply rules. We support predefined rules which applies on the output data. Example: If in a full body image, if the inference should be applied only if the value of the Category is Dress, we can pass this information in rules.|
+
+#### Rule Object
+
+| Param          | Type            | Required    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------|-----------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| type | string          | yes         |  predefined type of rule to be applied on the output or in the inference process|
+| Values          | array          | yes        | values to be applied as an input to the rule execution.|
+
+#### Supported Rules
+
+|rule            |description|
+|----------------|-----------------|
+|force_taxonomy_hierarchy|When added, the extraction is enforced for this hierarchy.|
+
+
+### Response
+
+The response will have reference mad_id for the request.
+
+#### Response Parameters
+
+
+| Params                                         | Description                                                                                                                                                                                                  |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| correlation_id   | Reference key sent in the request|
+|request_id        |Unique identifier of the request|
+| mad_id            | Unique ID assigned to the image by our system and is returned in the response. Users can store this on their end and use it for reference (of an image/product)|
+
+#### Response Status Code
+
+Status codes indicate if the response was successful or not. For the different response codes we return, please refer
+the table below:
+
+| Status Code | Description                                     |
+|-------------|-------------------------------------------------|
+| 200         | Successful                                      |
+
+
+#### Error Response Parameters
+
+
+|properties|datatype|description|
+|----------------|-----------------|-------------|
+|status|string|Status of the request. Allowed values: PENDING/SUCCESS/FAILURE|
+|mad_id|string|Unique identifier of the request|
+|errors|List of object|Represents error encountered|
+|errors[0]->code|string|Unique code of the error returned|
+|errors[0]->message|string|Description of the error message|
+
+
+### Request to get the extract attributes for a given mad_id
+
+This API returns attributes once available.
+
+#### Request Type
+
+POST
+
+#### Request Headers
+
+    
+```bash
+Content-Type: application/json
+```
+
+
+#### Endpoint
+
+The base URL will be provided to you at the time of onboarding.
+
+```bash
+POST <base_url>/<client>/api/v1/infer/:mad_id
+```
+
+#### Request Parameters
+
+| Param          | Type            | Required    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------|-----------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| mad_id            | Unique ID assigned to the image by our system and is returned in the response. Users can store this on their end and use it for reference (of an image/product)|
+
+### Response
+
+The response will have all the attributes extracted from the image.
+
+#### Response Parameters
+
+
+|properties|datatype|description|
+|----------------|-----------------|-------------|
+|version|string|Version of inference graph used|
+|status|string|Status of the request. Allowed values: PENDING/SUCCESS/FAILURE|
+|request_id|string|Unique identifier of the request|
+|mad_id|string|Unique identifier of a datapoint|
+|input_data|object|Input data sent in the request|
+|output|List of objects|Inference result of every object identified|
+|output[0] -> object_id|string|Unique identifier of a object|
+|output[0]->inferences|list of objects|Inference data for every object identified in the input data. Example, an image can contain shoes, bags, the models detects them and extracts relavant attribute and values for each of them.|
+|output[0]->inferences[0]-> id|string|Uniqueidentifier of an attribute|
+|output[0]->inferences[0]-> name|string|Name of an attribute|
+|output[0]->inferences[0]-> hierarchy|string|Represents hierarchy of the attribute in the taxonomy. Example, Color is an attribute that is defined for almost all objects that are models identify. We can detect color of a dress, bag etc. In this case, when the model detects color of a bag, then the hierarchy will be Category>Dress>Color|
+|output[0]->inferences[0]-> result|List of objects|Values derived for attribute. Our models can detect more than one value for an attribute. Example, pattern can be Animal Print with Stripes. This object will then return both the values with the associated confidence. |
+|output[0]->inferences[0]-> result[0]->prediction|string|Value predicted for attribute|
+|output[0]->inferences[0]-> result[0]-> prediction_box|array|Bounding box of the value|
+|output[0]->inferences[0]-> result[0]-> confidence|float|confidence of the predicted value. Allowed values: [0..1]|
+
+#### Response Status Code
+
+Status codes indicate if the response was successful or not. For the different response codes we return, please refer
+the table below:
+
+| Status Code | Description                                     |
+|-------------|-------------------------------------------------|
+| 200         | Successful                                      |
+
+#### Error Response Parameters
+
+
+|properties|datatype|description|
+|----------------|-----------------|-------------|
+|status|string|Status of the request. Allowed values: PENDING/SUCCESS/FAILURE|
+|mad_id|string|Unique identifier of the request|
+|errors|List of object|Represents error encountered|
+|errors[0]->code|string|Unique code of the error returned|
+|errors[0]->message|string|Description of the error message|
+
+
+#### Request Structure
+
+```Json
+POST <base_url>/api/v1/infer
+
+{
+   "correlation_id": "",
+   "input_data":{
+      "image_url":["http://tag.com/1.url", "http://tag.com/2.url"]
+   }
+}
+```
+
+#### Response Structure
+
+```Json
+200 OK
+
+{
+   "correlation_id": "",
+   "version":"",
+   "status":"",
+   "request_id":"",
+   "mad_id":""
+}
+```
+
+#### Request Structure
+
+
+```Json
+GET <base_url>/api/v1/infer/:mad_id
+
+200 OK
+{
+   "correlation_id": "",
+   "version":"",
+   "status":"",
+   "request_id":"",
+   "mad_id":"",
+   "input_data":{
+      "image_url":["http://tag.com/1.url", "http://tag.com/2.url"]
+   }
+   "output":[{
+        "object_id":"",
+        "inferences":[{
+                "id":"",
+                "name":"",
+                "hierarchy":"",
+                "result":[{
+                    "confidence":"",
+                    "prediction":"",
+                    "prediction_box":""
+                }]
+        }]
+    }]
+}
+```
