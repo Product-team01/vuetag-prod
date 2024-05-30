@@ -7,7 +7,7 @@ const data = {
      
         {
             title: "How do I publish a product recommendation strategy on my website?",
-            content: 'Please click <a href="https://support.vue.ai/guides/DXM%20hub/Strategy/Predifined%20strategy" target="_blank" rel="noopener noreferrer">here</a> to visit our knowledge base with step-by-step instructions on how to create & publish personalized recommendations.'
+            content: 'Please click <a href="https://supportdocs.vuetag.ai/guides/DXM%20hub/Strategy/Predifined%20strategy" target="_blank" rel="noopener noreferrer">here</a> to visit our knowledge base with step-by-step instructions on how to create & publish personalized recommendations.'
         },
         {
             title: "Where can I find my recommendation metrics?",
@@ -15,11 +15,11 @@ const data = {
         },
         {
             title: "I have created a strategy, but nothing is being displayed on my website?",
-            content: 'Please click <a href="https://support.vue.ai/guides/DXM%20hub/Strategy/Creating%20a%20strategy" target="_blank" rel="noopener noreferrer">here</a> to visit our knowledge base with step-by-step instructions on how to create & publish personalized recommendations.'
+            content: 'Please click <a href="https://supportdocs.vuetag.ai/guides/DXM%20hub/Strategy/Creating%20a%20strategy" target="_blank" rel="noopener noreferrer">here</a> to visit our knowledge base with step-by-step instructions on how to create & publish personalized recommendations.'
         },
         {
             title: "The recommendation I have created is working on my website but not on my app. How can I fix it?",
-            content: 'Recommendation on the application only works via API implementation. Please click <a href="https://support.vue.ai/api/#" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to implement API & receive recommendation data.'
+            content: 'Recommendation on the application only works via API implementation. Please click <a href="https://supportdocs.vuetag.ai/api/#" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to implement API & receive recommendation data.'
         },
         {
             title: "Can I modify/update the parameters?",
@@ -35,7 +35,7 @@ const data = {
         },
         {
             title: "How can I display recommendations only on a page/page type?",
-            content: 'You can configure an Experience to render only on a particular page. Please click <a href="https://support.vue.ai/guides/DXM%20hub/Pages" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to configure an Experience.'
+            content: 'You can configure an Experience to render only on a particular page. Please click <a href="https://supportdocs.vuetag.ai/guides/DXM%20hub/Pages" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to configure an Experience.'
         },
         {
             title: "Can I change my template type for an existing template?",

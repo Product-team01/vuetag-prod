@@ -51,25 +51,25 @@ export default function HubCards() {
       <HubCard
         title="Data Hub"
         description="Collect Data, Enrich & Analyse the tags generated."
-        link="https://idp-support.vue.ai/Data-set"
+        link="https://idp-supportdocs.vuetag.ai/Data-set"
         buttonLabel="Dataset Manager"
         additionalButtonLabel="Document Manager"
-        additionalButtonLink="https://idp-support.vue.ai/Document-Manager/"
+        additionalButtonLink="https://idp-supportdocs.vuetag.ai/Document-Manager/"
         iconSrc="https://d1r1e7xjkfj7nz.cloudfront.net/DataHub2x.png"
       />
       {/* <HubCard
         title="Customer Hub"
         description="Build custom segment, configure recommendation, manage campaigns."
-        link="https://idp-support.vue.ai//Digital-Experience-Manager/Experience/Experience%20Listing"
+        link="https://idp-supportdocs.vuetag.ai//Digital-Experience-Manager/Experience/Experience%20Listing"
         buttonLabel="Experience"
         additionalButtonLabel="Metrics"
-        additionalButtonLink="https://idp-support.vue.ai//Digital-Experience-Manager/Metrics"
+        additionalButtonLink="https://idp-supportdocs.vuetag.ai//Digital-Experience-Manager/Metrics"
         iconSrc="https://d1r1e7xjkfj7nz.cloudfront.net/Users2x.png"
       /> */}
       <HubCard1
         title="Automation Hub"
         description="One shot learning, build custom workflows, no-code automation."
-        link="https://idp-support.vue.ai/Automation"
+        link="https://idp-supportdocs.vuetag.ai/Automation"
         buttonLabel="Workflow Manager"
         iconSrc="https://d1r1e7xjkfj7nz.cloudfront.net/AutomationHub2x.png"
       />

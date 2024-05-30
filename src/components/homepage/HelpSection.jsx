@@ -45,7 +45,7 @@ export default function HelpSection({ className = '' }) {
               This guide is designed to help you navigate and make the most of your experience on our tool.
             </p>
             <Link
-              href="https://support.vue.ai/guides"
+              href="https://supportdocs.vuetag.ai/guides"
               className="text-primary dark:text-primary-100"
             >
               Take me there &rarr;
@@ -58,7 +58,7 @@ export default function HelpSection({ className = '' }) {
               This comprehensive guide is designed to assist developers in integrating and leveraging the functionalities of our tool.
             </p>
             <Link
-              href="https://support.vue.ai/api/#/"
+              href="https://supportdocs.vuetag.ai/api/#/"
               className="text-primary dark:text-primary-100"
             >
               Take me there &rarr;

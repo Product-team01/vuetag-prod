@@ -11,11 +11,11 @@ const data = {
         },
         {
             title: "How do I create a Catalog?",
-            content: 'You can create a Catalog by clicking on ‘Create New’ in the Explore screen. Click <a href="https://support.vue.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to create a Catalog.'
+            content: 'You can create a Catalog by clicking on ‘Create New’ in the Explore screen. Click <a href="https://supportdocs.vuetag.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to create a Catalog.'
         },
         {
             title: "How can I access a Catalog’s Content?",
-            content: 'In the Catalog listing table, either click on the Catalog Name or on the ‘info’ icon. Click <a href="https://support.vue.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to access & manage Catalog content.'
+            content: 'In the Catalog listing table, either click on the Catalog Name or on the ‘info’ icon. Click <a href="https://supportdocs.vuetag.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a> to find detailed instructions on how to access & manage Catalog content.'
         },
         {
             title: "What are the types of data sources supported?",
@@ -23,7 +23,7 @@ const data = {
         },
         {
             title: "Can I upload data from Shopify feed?",
-            content: 'No, we currently don’t support Shopify feed as a data source. Please check our list of currently supported <a href="https://support.vue.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a>.'
+            content: 'No, we currently don’t support Shopify feed as a data source. Please check our list of currently supported <a href="https://supportdocs.vuetag.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a>.'
         },
         {
             title: "What is a schema?",
@@ -43,7 +43,7 @@ const data = {
         },
         {
             title: "What are the segments supported?",
-            content: 'We currently support a host of segments. Please find the list <a href="https://support.vue.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a>.'
+            content: 'We currently support a host of segments. Please find the list <a href="https://supportdocs.vuetag.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a>.'
         },
         {
             title: "What does ‘Test Connection’ do?",
@@ -63,7 +63,7 @@ const data = {
         },
         {
             title: "What are the sync options available for a Catalog?",
-            content: 'We support a variety of sync & schedule options as part of the Catalog. Please click <a href="https://support.vue.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a> to learn more about sync.'
+            content: 'We support a variety of sync & schedule options as part of the Catalog. Please click <a href="https://supportdocs.vuetag.ai/guides/Audience%20Hub/Getting%20started" target="_blank" rel="noopener noreferrer">here</a> to learn more about sync.'
         },
         {
             title: "If a data file from a customer has duplicate column headers, what is the default behavior in handling it?",

@@ -15,7 +15,7 @@ const data = {
           },
           {
             title: "How can I access the Audience Overlap Information?",
-            content: 'Click on the ‘overlap’ icon next to each Audience name from the Audience Listing Table. Please click <a href="https://support.vue.ai/guides/Audience%20Hub/Getting%20started" target="_blank">here</a> to find details about Audience Overlap.'
+            content: 'Click on the ‘overlap’ icon next to each Audience name from the Audience Listing Table. Please click <a href="https://supportdocs.vuetag.ai/guides/Audience%20Hub/Getting%20started" target="_blank">here</a> to find details about Audience Overlap.'
           },
           {
             title: "Can I create a custom Audience?",
