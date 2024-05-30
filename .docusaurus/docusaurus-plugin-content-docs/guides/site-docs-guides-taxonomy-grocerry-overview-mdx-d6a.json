@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Taxonomy/Grocerry/Overview",
+  "id": "Taxonomy/Grocerry/Overview",
+  "title": "Overview",
+  "description": "This section defines the in-house taxonomy structure defined for Grocery segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+  "source": "@site/docs/guides/Taxonomy/Grocerry/Overview.mdx",
+  "sourceDirName": "Taxonomy/Grocerry",
+  "slug": "/Taxonomy/Grocerry/Overview",
+  "permalink": "/guides/Taxonomy/Grocerry/Overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Title and Description",
+    "permalink": "/guides/Taxonomy/Fashion/Title and Description"
+  },
+  "next": {
+    "title": "Category",
+    "permalink": "/guides/Taxonomy/Grocerry/Category"
+  }
+}

@@ -343,8 +343,8 @@ const NewsfeedLauncher = () => {
 
   return (
     <div>
-      {/* <div ref={launcherRef} id="newsfeed-launcher">Release Notes</div>
-      {unreadCount > 0 && <span className="badge">{unreadCount}</span>} */}
+      <div ref={launcherRef} id="newsfeed-launcher">Release Notes</div>
+      {unreadCount > 0 && <span className="badge">{unreadCount}</span>}
     </div>
   );
 };

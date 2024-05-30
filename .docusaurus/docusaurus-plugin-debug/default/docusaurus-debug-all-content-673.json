@@ -1,0 +1,962 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "guides": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/guides",
+          "tagsPath": "/guides/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "contentPath": "/Users/silasasharjesudasanj/Desktop/vuetag-supportsite/docs/guides",
+          "contentPathLocalized": "/Users/silasasharjesudasanj/Desktop/vuetag-supportsite/i18n/en/docusaurus-plugin-content-docs-guides/current",
+          "docs": [
+            {
+              "unversionedId": "api-reference/async_tagging",
+              "id": "api-reference/async_tagging",
+              "title": "Attribute Extraction - Asynchronous",
+              "description": "This API returns AI powered product tags asynchronously. We also support sending back responses to a client hosted callback URL when the response is ready.",
+              "source": "@site/docs/guides/api-reference/async_tagging.mdx",
+              "sourceDirName": "api-reference",
+              "slug": "/api-reference/async_tagging",
+              "permalink": "/guides/api-reference/async_tagging",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Category",
+                "permalink": "/guides/Taxonomy/Home/Category"
+              },
+              "next": {
+                "title": "Attribute Extraction - Feedback",
+                "permalink": "/guides/api-reference/tagging_feedback"
+              }
+            },
+            {
+              "unversionedId": "api-reference/tagging_feedback",
+              "id": "api-reference/tagging_feedback",
+              "title": "Attribute Extraction - Feedback",
+              "description": "This API accepts feedback on attributes for any given mad_id.",
+              "source": "@site/docs/guides/api-reference/tagging_feedback.mdx",
+              "sourceDirName": "api-reference",
+              "slug": "/api-reference/tagging_feedback",
+              "permalink": "/guides/api-reference/tagging_feedback",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Attribute Extraction - Asynchronous",
+                "permalink": "/guides/api-reference/async_tagging"
+              }
+            },
+            {
+              "unversionedId": "Getting started/Audience builder",
+              "id": "Getting started/Audience builder",
+              "title": "Getting started",
+              "description": "The VueTag service is available through REST APIs and can be used in a variety of configurations based on the specific requirement.",
+              "source": "@site/docs/guides/Getting started/Audience builder.mdx",
+              "sourceDirName": "Getting started",
+              "slug": "/",
+              "permalink": "/guides/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "title": "Getting started",
+                "sidebar_position": 1,
+                "slug": "/"
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "guides",
+                "permalink": "/guides/"
+              },
+              "next": {
+                "title": "Audience listing",
+                "permalink": "/guides/Getting started/Audience Listing"
+              }
+            },
+            {
+              "unversionedId": "Getting started/Audience Listing",
+              "id": "Getting started/Audience Listing",
+              "title": "Audience listing",
+              "description": "In Audience Manager, view the list of “All Audiences” created in a table. From here you can either ‘Upload’ a Custom Audience or view Audience configuration & overlap details.",
+              "source": "@site/docs/guides/Getting started/Audience Listing.mdx",
+              "sourceDirName": "Getting started",
+              "slug": "/Getting started/Audience Listing",
+              "permalink": "/guides/Getting started/Audience Listing",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Audience listing",
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Getting started",
+                "permalink": "/guides/"
+              },
+              "next": {
+                "title": "Category",
+                "permalink": "/guides/Taxonomy/Beauty/1"
+              }
+            },
+            {
+              "unversionedId": "guides",
+              "id": "guides",
+              "title": "guides",
+              "description": "T",
+              "source": "@site/docs/guides/guides.mdx",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/guides/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "slug": "/",
+                "sidebar_position": 1,
+                "sidebar_class_name": "guide_sidebar_index"
+              },
+              "sidebar": "defaultSidebar",
+              "next": {
+                "title": "Getting started",
+                "permalink": "/guides/"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Beauty/1",
+              "id": "Taxonomy/Beauty/1",
+              "title": "Category",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Beauty/1.mdx",
+              "sourceDirName": "Taxonomy/Beauty",
+              "slug": "/Taxonomy/Beauty/1",
+              "permalink": "/guides/Taxonomy/Beauty/1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "title": "Category",
+                "sidebar_label": "Category",
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Audience listing",
+                "permalink": "/guides/Getting started/Audience Listing"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Electronics/Overview"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Appliances",
+              "id": "Taxonomy/Electronics/Appliances",
+              "title": "Appliances",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Appliances.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Appliances",
+              "permalink": "/guides/Taxonomy/Electronics/Appliances",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Electronics/Overview"
+              },
+              "next": {
+                "title": "Audio Devices",
+                "permalink": "/guides/Taxonomy/Electronics/Audio Devices"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Audio Devices",
+              "id": "Taxonomy/Electronics/Audio Devices",
+              "title": "Audio Devices",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Audio Devices.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Audio Devices",
+              "permalink": "/guides/Taxonomy/Electronics/Audio Devices",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Appliances",
+                "permalink": "/guides/Taxonomy/Electronics/Appliances"
+              },
+              "next": {
+                "title": "Cameras & Camcorders",
+                "permalink": "/guides/Taxonomy/Electronics/Cameras & Camcorders"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Cameras & Camcorders",
+              "id": "Taxonomy/Electronics/Cameras & Camcorders",
+              "title": "Cameras & Camcorders",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Cameras & Camcorders.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Cameras & Camcorders",
+              "permalink": "/guides/Taxonomy/Electronics/Cameras & Camcorders",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Audio Devices",
+                "permalink": "/guides/Taxonomy/Electronics/Audio Devices"
+              },
+              "next": {
+                "title": "Car Electronics & GPS",
+                "permalink": "/guides/Taxonomy/Electronics/Car Electronics & GPS"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Car Electronics & GPS",
+              "id": "Taxonomy/Electronics/Car Electronics & GPS",
+              "title": "Car Electronics & GPS",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Car Electronics & GPS.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Car Electronics & GPS",
+              "permalink": "/guides/Taxonomy/Electronics/Car Electronics & GPS",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Cameras & Camcorders",
+                "permalink": "/guides/Taxonomy/Electronics/Cameras & Camcorders"
+              },
+              "next": {
+                "title": "Computers & Tablets",
+                "permalink": "/guides/Taxonomy/Electronics/Computers & Tablets"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Computers & Tablets",
+              "id": "Taxonomy/Electronics/Computers & Tablets",
+              "title": "Computers & Tablets",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Computers & Tablets.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Computers & Tablets",
+              "permalink": "/guides/Taxonomy/Electronics/Computers & Tablets",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Car Electronics & GPS",
+                "permalink": "/guides/Taxonomy/Electronics/Car Electronics & GPS"
+              },
+              "next": {
+                "title": "Health, Fitness & Personal Care",
+                "permalink": "/guides/Taxonomy/Electronics/Health, Fitness & Personal Care"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Health, Fitness & Personal Care",
+              "id": "Taxonomy/Electronics/Health, Fitness & Personal Care",
+              "title": "Health, Fitness & Personal Care",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Health, Fitness & Personal Care.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Health, Fitness & Personal Care",
+              "permalink": "/guides/Taxonomy/Electronics/Health, Fitness & Personal Care",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Computers & Tablets",
+                "permalink": "/guides/Taxonomy/Electronics/Computers & Tablets"
+              },
+              "next": {
+                "title": "Home & Office",
+                "permalink": "/guides/Taxonomy/Electronics/Home & Office"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Home & Office",
+              "id": "Taxonomy/Electronics/Home & Office",
+              "title": "Home & Office",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Home & Office.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Home & Office",
+              "permalink": "/guides/Taxonomy/Electronics/Home & Office",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Health, Fitness & Personal Care",
+                "permalink": "/guides/Taxonomy/Electronics/Health, Fitness & Personal Care"
+              },
+              "next": {
+                "title": "Mobile Phones",
+                "permalink": "/guides/Taxonomy/Electronics/Mobile Phones"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Mobile Phones",
+              "id": "Taxonomy/Electronics/Mobile Phones",
+              "title": "Mobile Phones",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Mobile Phones.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Mobile Phones",
+              "permalink": "/guides/Taxonomy/Electronics/Mobile Phones",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Home & Office",
+                "permalink": "/guides/Taxonomy/Electronics/Home & Office"
+              },
+              "next": {
+                "title": "Smart Home, Security & Wi-Fi",
+                "permalink": "/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Overview",
+              "id": "Taxonomy/Electronics/Overview",
+              "title": "Overview",
+              "description": "This section defines the in-house taxonomy structure defined for Electronics segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Overview.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Overview",
+              "permalink": "/guides/Taxonomy/Electronics/Overview",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Category",
+                "permalink": "/guides/Taxonomy/Beauty/1"
+              },
+              "next": {
+                "title": "Appliances",
+                "permalink": "/guides/Taxonomy/Electronics/Appliances"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+              "id": "Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+              "title": "Smart Home, Security & Wi-Fi",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+              "permalink": "/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Mobile Phones",
+                "permalink": "/guides/Taxonomy/Electronics/Mobile Phones"
+              },
+              "next": {
+                "title": "Sustainable Living",
+                "permalink": "/guides/Taxonomy/Electronics/Sustainable Living"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Sustainable Living",
+              "id": "Taxonomy/Electronics/Sustainable Living",
+              "title": "Sustainable Living",
+              "description": "| Category                                                       | Sub Category                  | Attribute | Attribute Value                                                                              |",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Sustainable Living.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Sustainable Living",
+              "permalink": "/guides/Taxonomy/Electronics/Sustainable Living",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Smart Home, Security & Wi-Fi",
+                "permalink": "/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi"
+              },
+              "next": {
+                "title": "TV & Home Theatre",
+                "permalink": "/guides/Taxonomy/Electronics/TV & Home Theatre"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/TV & Home Theatre",
+              "id": "Taxonomy/Electronics/TV & Home Theatre",
+              "title": "TV & Home Theatre",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/TV & Home Theatre.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/TV & Home Theatre",
+              "permalink": "/guides/Taxonomy/Electronics/TV & Home Theatre",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Sustainable Living",
+                "permalink": "/guides/Taxonomy/Electronics/Sustainable Living"
+              },
+              "next": {
+                "title": "Video Games",
+                "permalink": "/guides/Taxonomy/Electronics/Video Games"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Video Games",
+              "id": "Taxonomy/Electronics/Video Games",
+              "title": "Video Games",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Video Games.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Video Games",
+              "permalink": "/guides/Taxonomy/Electronics/Video Games",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "TV & Home Theatre",
+                "permalink": "/guides/Taxonomy/Electronics/TV & Home Theatre"
+              },
+              "next": {
+                "title": "Wearable Technology",
+                "permalink": "/guides/Taxonomy/Electronics/Wearable Technology"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Electronics/Wearable Technology",
+              "id": "Taxonomy/Electronics/Wearable Technology",
+              "title": "Wearable Technology",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Electronics/Wearable Technology.mdx",
+              "sourceDirName": "Taxonomy/Electronics",
+              "slug": "/Taxonomy/Electronics/Wearable Technology",
+              "permalink": "/guides/Taxonomy/Electronics/Wearable Technology",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Video Games",
+                "permalink": "/guides/Taxonomy/Electronics/Video Games"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Fashion/Overview"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Fashion/Color Family",
+              "id": "Taxonomy/Fashion/Color Family",
+              "title": "Color Family",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Fashion/Color Family.mdx",
+              "sourceDirName": "Taxonomy/Fashion",
+              "slug": "/Taxonomy/Fashion/Color Family",
+              "permalink": "/guides/Taxonomy/Fashion/Color Family",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "slug": "Color Family"
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Supported Attribute Family",
+                "permalink": "/guides/Taxonomy/Fashion/Supported Attribute Family"
+              },
+              "next": {
+                "title": "Title and Description",
+                "permalink": "/guides/Taxonomy/Fashion/Title and Description"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Fashion/Overview",
+              "id": "Taxonomy/Fashion/Overview",
+              "title": "Overview",
+              "description": "This section defines the in-house taxonomy structure defined for Fashion segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+              "source": "@site/docs/guides/Taxonomy/Fashion/Overview.mdx",
+              "sourceDirName": "Taxonomy/Fashion",
+              "slug": "/Taxonomy/Fashion/Overview",
+              "permalink": "/guides/Taxonomy/Fashion/Overview",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Wearable Technology",
+                "permalink": "/guides/Taxonomy/Electronics/Wearable Technology"
+              },
+              "next": {
+                "title": "Supported Attribute Family",
+                "permalink": "/guides/Taxonomy/Fashion/Supported Attribute Family"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Fashion/Supported Attribute Family",
+              "id": "Taxonomy/Fashion/Supported Attribute Family",
+              "title": "Supported Attribute Family",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Fashion/Supported Attribute Family.mdx",
+              "sourceDirName": "Taxonomy/Fashion",
+              "slug": "/Taxonomy/Fashion/Supported Attribute Family",
+              "permalink": "/guides/Taxonomy/Fashion/Supported Attribute Family",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "slug": "Supported Attribute Family",
+                "label": "Supported Attribute Family"
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Fashion/Overview"
+              },
+              "next": {
+                "title": "Color Family",
+                "permalink": "/guides/Taxonomy/Fashion/Color Family"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Fashion/Title and Description",
+              "id": "Taxonomy/Fashion/Title and Description",
+              "title": "Title and Description",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Fashion/Title and Description.mdx",
+              "sourceDirName": "Taxonomy/Fashion",
+              "slug": "/Taxonomy/Fashion/Title and Description",
+              "permalink": "/guides/Taxonomy/Fashion/Title and Description",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "slug": "Title and Description"
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Color Family",
+                "permalink": "/guides/Taxonomy/Fashion/Color Family"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Grocerry/Overview"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Grocerry/Category",
+              "id": "Taxonomy/Grocerry/Category",
+              "title": "Category",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Grocerry/Category.mdx",
+              "sourceDirName": "Taxonomy/Grocerry",
+              "slug": "/Taxonomy/Grocerry/Category",
+              "permalink": "/guides/Taxonomy/Grocerry/Category",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Grocerry/Overview"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Home/Overview"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Grocerry/Overview",
+              "id": "Taxonomy/Grocerry/Overview",
+              "title": "Overview",
+              "description": "This section defines the in-house taxonomy structure defined for Grocery segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+              "source": "@site/docs/guides/Taxonomy/Grocerry/Overview.mdx",
+              "sourceDirName": "Taxonomy/Grocerry",
+              "slug": "/Taxonomy/Grocerry/Overview",
+              "permalink": "/guides/Taxonomy/Grocerry/Overview",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Title and Description",
+                "permalink": "/guides/Taxonomy/Fashion/Title and Description"
+              },
+              "next": {
+                "title": "Category",
+                "permalink": "/guides/Taxonomy/Grocerry/Category"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Home/Category",
+              "id": "Taxonomy/Home/Category",
+              "title": "Category",
+              "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+              "source": "@site/docs/guides/Taxonomy/Home/Category.mdx",
+              "sourceDirName": "Taxonomy/Home",
+              "slug": "/Taxonomy/Home/Category",
+              "permalink": "/guides/Taxonomy/Home/Category",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/guides/Taxonomy/Home/Overview"
+              },
+              "next": {
+                "title": "Attribute Extraction - Asynchronous",
+                "permalink": "/guides/api-reference/async_tagging"
+              }
+            },
+            {
+              "unversionedId": "Taxonomy/Home/Overview",
+              "id": "Taxonomy/Home/Overview",
+              "title": "Overview",
+              "description": "This section defines the in-house taxonomy structure defined for Home segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+              "source": "@site/docs/guides/Taxonomy/Home/Overview.mdx",
+              "sourceDirName": "Taxonomy/Home",
+              "slug": "/Taxonomy/Home/Overview",
+              "permalink": "/guides/Taxonomy/Home/Overview",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Category",
+                "permalink": "/guides/Taxonomy/Grocerry/Category"
+              },
+              "next": {
+                "title": "Category",
+                "permalink": "/guides/Taxonomy/Home/Category"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "defaultSidebar": [
+              {
+                "type": "doc",
+                "id": "guides",
+                "className": "guide_sidebar_index"
+              },
+              {
+                "type": "category",
+                "label": "Getting started",
+                "collapsible": true,
+                "collapsed": true,
+                "className": "audio_sidebar_header",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Getting started/Audience builder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Getting started/Audience Listing"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Taxonomy",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Beauty",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Beauty/1",
+                        "label": "Category"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Electronics",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Appliances"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Audio Devices"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Cameras & Camcorders"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Car Electronics & GPS"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Computers & Tablets"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Health, Fitness & Personal Care"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Home & Office"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Mobile Phones"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Smart Home, Security & Wi-Fi"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Sustainable Living"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/TV & Home Theatre"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Video Games"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Electronics/Wearable Technology"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Fashion",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Fashion/Overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Fashion/Supported Attribute Family"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Fashion/Color Family"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Fashion/Title and Description"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Grocery",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Grocerry/Overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Grocerry/Category"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Home",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Home/Overview"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "Taxonomy/Home/Category"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "API Reference",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api-reference/async_tagging"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "api-reference/tagging_feedback"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/GTMnoScript",
+        "source": "@site/src/pages/GTMnoScript.jsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/Release",
+        "source": "@site/src/pages/Release.jsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/api",
+        "source": "@site/src/pages/api.jsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/getting-started",
+        "source": "@site/src/pages/getting-started.mdx",
+        "title": "Introduction to Dyte",
+        "description": "A short guide on how to integrate dyte and how dyte works with your application",
+        "frontMatter": {
+          "description": "A short guide on how to integrate dyte and how dyte works with your application"
+        }
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.jsx"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/api/v2",
+        "source": "@site/src/pages/api/v2.jsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/release-notes/",
+        "source": "@site/src/pages/release-notes/index.mdx",
+        "title": "Release Notes",
+        "frontMatter": {}
+      },
+      {
+        "type": "mdx",
+        "permalink": "/release-notes/rest-api",
+        "source": "@site/src/pages/release-notes/rest-api.mdx",
+        "title": "Release Notes",
+        "description": "The release notes lists all new features, resolved issues, and known issues of our REST APIs in chronological order.",
+        "frontMatter": {
+          "title": "Release Notes",
+          "tags": [
+            "releasenotes"
+          ]
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-plugin-google-tag-manager": {},
+  "docusaurus-theme-classic": {},
+  "tailwind-plugin": {},
+  "webpack-plugin": {},
+  "docusaurus-plugin-client-redirects": {},
+  "docusaurus-theme-live-codeblock": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Taxonomy/Fashion/Color Family",
+  "id": "Taxonomy/Fashion/Color Family",
+  "title": "Color Family",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Fashion/Color Family.mdx",
+  "sourceDirName": "Taxonomy/Fashion",
+  "slug": "/Taxonomy/Fashion/Color Family",
+  "permalink": "/guides/Taxonomy/Fashion/Color Family",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "slug": "Color Family"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Supported Attribute Family",
+    "permalink": "/guides/Taxonomy/Fashion/Supported Attribute Family"
+  },
+  "next": {
+    "title": "Title and Description",
+    "permalink": "/guides/Taxonomy/Fashion/Title and Description"
+  }
+}

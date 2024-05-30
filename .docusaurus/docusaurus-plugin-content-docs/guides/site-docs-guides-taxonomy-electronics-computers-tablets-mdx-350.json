@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Computers & Tablets",
+  "id": "Taxonomy/Electronics/Computers & Tablets",
+  "title": "Computers & Tablets",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Computers & Tablets.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Computers & Tablets",
+  "permalink": "/guides/Taxonomy/Electronics/Computers & Tablets",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Car Electronics & GPS",
+    "permalink": "/guides/Taxonomy/Electronics/Car Electronics & GPS"
+  },
+  "next": {
+    "title": "Health, Fitness & Personal Care",
+    "permalink": "/guides/Taxonomy/Electronics/Health, Fitness & Personal Care"
+  }
+}

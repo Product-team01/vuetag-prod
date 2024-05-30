@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Home/Category",
+  "id": "Taxonomy/Home/Category",
+  "title": "Category",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Home/Category.mdx",
+  "sourceDirName": "Taxonomy/Home",
+  "slug": "/Taxonomy/Home/Category",
+  "permalink": "/guides/Taxonomy/Home/Category",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/guides/Taxonomy/Home/Overview"
+  },
+  "next": {
+    "title": "Attribute Extraction - Asynchronous",
+    "permalink": "/guides/api-reference/async_tagging"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Taxonomy/Fashion/Overview",
+  "id": "Taxonomy/Fashion/Overview",
+  "title": "Overview",
+  "description": "This section defines the in-house taxonomy structure defined for Fashion segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+  "source": "@site/docs/guides/Taxonomy/Fashion/Overview.mdx",
+  "sourceDirName": "Taxonomy/Fashion",
+  "slug": "/Taxonomy/Fashion/Overview",
+  "permalink": "/guides/Taxonomy/Fashion/Overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Wearable Technology",
+    "permalink": "/guides/Taxonomy/Electronics/Wearable Technology"
+  },
+  "next": {
+    "title": "Supported Attribute Family",
+    "permalink": "/guides/Taxonomy/Fashion/Supported Attribute Family"
+  }
+}

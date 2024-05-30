@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Overview",
+  "id": "Taxonomy/Electronics/Overview",
+  "title": "Overview",
+  "description": "This section defines the in-house taxonomy structure defined for Electronics segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Overview.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Overview",
+  "permalink": "/guides/Taxonomy/Electronics/Overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Category",
+    "permalink": "/guides/Taxonomy/Beauty/1"
+  },
+  "next": {
+    "title": "Appliances",
+    "permalink": "/guides/Taxonomy/Electronics/Appliances"
+  }
+}

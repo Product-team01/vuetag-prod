@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Audio Devices",
+  "id": "Taxonomy/Electronics/Audio Devices",
+  "title": "Audio Devices",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Audio Devices.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Audio Devices",
+  "permalink": "/guides/Taxonomy/Electronics/Audio Devices",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Appliances",
+    "permalink": "/guides/Taxonomy/Electronics/Appliances"
+  },
+  "next": {
+    "title": "Cameras & Camcorders",
+    "permalink": "/guides/Taxonomy/Electronics/Cameras & Camcorders"
+  }
+}

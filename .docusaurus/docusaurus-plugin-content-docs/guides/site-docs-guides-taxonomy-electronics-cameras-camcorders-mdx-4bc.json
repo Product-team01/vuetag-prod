@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Cameras & Camcorders",
+  "id": "Taxonomy/Electronics/Cameras & Camcorders",
+  "title": "Cameras & Camcorders",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Cameras & Camcorders.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Cameras & Camcorders",
+  "permalink": "/guides/Taxonomy/Electronics/Cameras & Camcorders",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Audio Devices",
+    "permalink": "/guides/Taxonomy/Electronics/Audio Devices"
+  },
+  "next": {
+    "title": "Car Electronics & GPS",
+    "permalink": "/guides/Taxonomy/Electronics/Car Electronics & GPS"
+  }
+}

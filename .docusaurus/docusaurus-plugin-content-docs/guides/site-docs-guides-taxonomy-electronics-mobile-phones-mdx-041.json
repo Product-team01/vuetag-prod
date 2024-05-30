@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Mobile Phones",
+  "id": "Taxonomy/Electronics/Mobile Phones",
+  "title": "Mobile Phones",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Mobile Phones.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Mobile Phones",
+  "permalink": "/guides/Taxonomy/Electronics/Mobile Phones",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Home & Office",
+    "permalink": "/guides/Taxonomy/Electronics/Home & Office"
+  },
+  "next": {
+    "title": "Smart Home, Security & Wi-Fi",
+    "permalink": "/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi"
+  }
+}

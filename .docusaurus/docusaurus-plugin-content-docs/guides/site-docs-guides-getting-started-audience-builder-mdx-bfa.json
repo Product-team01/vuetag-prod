@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Getting started/Audience builder",
+  "id": "Getting started/Audience builder",
+  "title": "Getting started",
+  "description": "The VueTag service is available through REST APIs and can be used in a variety of configurations based on the specific requirement.",
+  "source": "@site/docs/guides/Getting started/Audience builder.mdx",
+  "sourceDirName": "Getting started",
+  "slug": "/",
+  "permalink": "/guides/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Getting started",
+    "sidebar_position": 1,
+    "slug": "/"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "guides",
+    "permalink": "/guides/"
+  },
+  "next": {
+    "title": "Audience listing",
+    "permalink": "/guides/Getting started/Audience Listing"
+  }
+}

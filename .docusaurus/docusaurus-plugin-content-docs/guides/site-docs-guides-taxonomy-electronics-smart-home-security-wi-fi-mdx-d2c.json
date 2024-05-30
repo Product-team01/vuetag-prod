@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+  "id": "Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+  "title": "Smart Home, Security & Wi-Fi",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+  "permalink": "/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Mobile Phones",
+    "permalink": "/guides/Taxonomy/Electronics/Mobile Phones"
+  },
+  "next": {
+    "title": "Sustainable Living",
+    "permalink": "/guides/Taxonomy/Electronics/Sustainable Living"
+  }
+}

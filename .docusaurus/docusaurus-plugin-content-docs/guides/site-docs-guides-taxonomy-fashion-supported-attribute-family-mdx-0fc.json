@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Taxonomy/Fashion/Supported Attribute Family",
+  "id": "Taxonomy/Fashion/Supported Attribute Family",
+  "title": "Supported Attribute Family",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Fashion/Supported Attribute Family.mdx",
+  "sourceDirName": "Taxonomy/Fashion",
+  "slug": "/Taxonomy/Fashion/Supported Attribute Family",
+  "permalink": "/guides/Taxonomy/Fashion/Supported Attribute Family",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "slug": "Supported Attribute Family",
+    "label": "Supported Attribute Family"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/guides/Taxonomy/Fashion/Overview"
+  },
+  "next": {
+    "title": "Color Family",
+    "permalink": "/guides/Taxonomy/Fashion/Color Family"
+  }
+}

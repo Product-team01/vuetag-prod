@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Car Electronics & GPS",
+  "id": "Taxonomy/Electronics/Car Electronics & GPS",
+  "title": "Car Electronics & GPS",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Car Electronics & GPS.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Car Electronics & GPS",
+  "permalink": "/guides/Taxonomy/Electronics/Car Electronics & GPS",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Cameras & Camcorders",
+    "permalink": "/guides/Taxonomy/Electronics/Cameras & Camcorders"
+  },
+  "next": {
+    "title": "Computers & Tablets",
+    "permalink": "/guides/Taxonomy/Electronics/Computers & Tablets"
+  }
+}

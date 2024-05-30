@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Taxonomy/Home/Overview",
+  "id": "Taxonomy/Home/Overview",
+  "title": "Overview",
+  "description": "This section defines the in-house taxonomy structure defined for Home segment. We have exhaustive tag support defined here and all our models are capable of generating these tags for accurately.",
+  "source": "@site/docs/guides/Taxonomy/Home/Overview.mdx",
+  "sourceDirName": "Taxonomy/Home",
+  "slug": "/Taxonomy/Home/Overview",
+  "permalink": "/guides/Taxonomy/Home/Overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Category",
+    "permalink": "/guides/Taxonomy/Grocerry/Category"
+  },
+  "next": {
+    "title": "Category",
+    "permalink": "/guides/Taxonomy/Home/Category"
+  }
+}

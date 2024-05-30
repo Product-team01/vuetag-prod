@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Sustainable Living",
+  "id": "Taxonomy/Electronics/Sustainable Living",
+  "title": "Sustainable Living",
+  "description": "| Category                                                       | Sub Category                  | Attribute | Attribute Value                                                                              |",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Sustainable Living.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Sustainable Living",
+  "permalink": "/guides/Taxonomy/Electronics/Sustainable Living",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Smart Home, Security & Wi-Fi",
+    "permalink": "/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi"
+  },
+  "next": {
+    "title": "TV & Home Theatre",
+    "permalink": "/guides/Taxonomy/Electronics/TV & Home Theatre"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Health, Fitness & Personal Care",
+  "id": "Taxonomy/Electronics/Health, Fitness & Personal Care",
+  "title": "Health, Fitness & Personal Care",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Health, Fitness & Personal Care.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Health, Fitness & Personal Care",
+  "permalink": "/guides/Taxonomy/Electronics/Health, Fitness & Personal Care",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Computers & Tablets",
+    "permalink": "/guides/Taxonomy/Electronics/Computers & Tablets"
+  },
+  "next": {
+    "title": "Home & Office",
+    "permalink": "/guides/Taxonomy/Electronics/Home & Office"
+  }
+}

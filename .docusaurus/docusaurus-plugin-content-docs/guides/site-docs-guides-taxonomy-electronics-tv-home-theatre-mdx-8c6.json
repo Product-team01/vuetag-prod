@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/TV & Home Theatre",
+  "id": "Taxonomy/Electronics/TV & Home Theatre",
+  "title": "TV & Home Theatre",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/TV & Home Theatre.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/TV & Home Theatre",
+  "permalink": "/guides/Taxonomy/Electronics/TV & Home Theatre",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Sustainable Living",
+    "permalink": "/guides/Taxonomy/Electronics/Sustainable Living"
+  },
+  "next": {
+    "title": "Video Games",
+    "permalink": "/guides/Taxonomy/Electronics/Video Games"
+  }
+}

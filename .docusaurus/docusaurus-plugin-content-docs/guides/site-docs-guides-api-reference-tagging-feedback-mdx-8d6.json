@@ -1,0 +1,22 @@
+{
+  "unversionedId": "api-reference/tagging_feedback",
+  "id": "api-reference/tagging_feedback",
+  "title": "Attribute Extraction - Feedback",
+  "description": "This API accepts feedback on attributes for any given mad_id.",
+  "source": "@site/docs/guides/api-reference/tagging_feedback.mdx",
+  "sourceDirName": "api-reference",
+  "slug": "/api-reference/tagging_feedback",
+  "permalink": "/guides/api-reference/tagging_feedback",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Attribute Extraction - Asynchronous",
+    "permalink": "/guides/api-reference/async_tagging"
+  }
+}

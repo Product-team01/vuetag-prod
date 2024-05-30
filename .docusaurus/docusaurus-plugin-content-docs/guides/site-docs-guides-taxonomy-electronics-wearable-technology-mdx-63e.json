@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Wearable Technology",
+  "id": "Taxonomy/Electronics/Wearable Technology",
+  "title": "Wearable Technology",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Wearable Technology.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Wearable Technology",
+  "permalink": "/guides/Taxonomy/Electronics/Wearable Technology",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Video Games",
+    "permalink": "/guides/Taxonomy/Electronics/Video Games"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/guides/Taxonomy/Fashion/Overview"
+  }
+}

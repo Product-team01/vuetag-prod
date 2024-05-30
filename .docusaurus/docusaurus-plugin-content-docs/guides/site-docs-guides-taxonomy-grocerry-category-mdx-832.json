@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Grocerry/Category",
+  "id": "Taxonomy/Grocerry/Category",
+  "title": "Category",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Grocerry/Category.mdx",
+  "sourceDirName": "Taxonomy/Grocerry",
+  "slug": "/Taxonomy/Grocerry/Category",
+  "permalink": "/guides/Taxonomy/Grocerry/Category",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/guides/Taxonomy/Grocerry/Overview"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/guides/Taxonomy/Home/Overview"
+  }
+}

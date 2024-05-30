@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Taxonomy/Fashion/Title and Description",
+  "id": "Taxonomy/Fashion/Title and Description",
+  "title": "Title and Description",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Fashion/Title and Description.mdx",
+  "sourceDirName": "Taxonomy/Fashion",
+  "slug": "/Taxonomy/Fashion/Title and Description",
+  "permalink": "/guides/Taxonomy/Fashion/Title and Description",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "slug": "Title and Description"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Color Family",
+    "permalink": "/guides/Taxonomy/Fashion/Color Family"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/guides/Taxonomy/Grocerry/Overview"
+  }
+}

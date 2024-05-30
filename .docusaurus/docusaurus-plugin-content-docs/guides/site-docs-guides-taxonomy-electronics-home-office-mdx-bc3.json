@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Home & Office",
+  "id": "Taxonomy/Electronics/Home & Office",
+  "title": "Home & Office",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Home & Office.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Home & Office",
+  "permalink": "/guides/Taxonomy/Electronics/Home & Office",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Health, Fitness & Personal Care",
+    "permalink": "/guides/Taxonomy/Electronics/Health, Fitness & Personal Care"
+  },
+  "next": {
+    "title": "Mobile Phones",
+    "permalink": "/guides/Taxonomy/Electronics/Mobile Phones"
+  }
+}

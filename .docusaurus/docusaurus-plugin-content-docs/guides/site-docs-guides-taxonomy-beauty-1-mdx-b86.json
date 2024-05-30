@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Taxonomy/Beauty/1",
+  "id": "Taxonomy/Beauty/1",
+  "title": "Category",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Beauty/1.mdx",
+  "sourceDirName": "Taxonomy/Beauty",
+  "slug": "/Taxonomy/Beauty/1",
+  "permalink": "/guides/Taxonomy/Beauty/1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Category",
+    "sidebar_label": "Category",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Audience listing",
+    "permalink": "/guides/Getting started/Audience Listing"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/guides/Taxonomy/Electronics/Overview"
+  }
+}

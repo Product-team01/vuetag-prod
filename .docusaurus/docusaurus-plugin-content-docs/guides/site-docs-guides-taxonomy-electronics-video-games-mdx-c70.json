@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Taxonomy/Electronics/Video Games",
+  "id": "Taxonomy/Electronics/Video Games",
+  "title": "Video Games",
+  "description": "This page is a living document that reflects the latest attributes that we keep training our models to generate.",
+  "source": "@site/docs/guides/Taxonomy/Electronics/Video Games.mdx",
+  "sourceDirName": "Taxonomy/Electronics",
+  "slug": "/Taxonomy/Electronics/Video Games",
+  "permalink": "/guides/Taxonomy/Electronics/Video Games",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TV & Home Theatre",
+    "permalink": "/guides/Taxonomy/Electronics/TV & Home Theatre"
+  },
+  "next": {
+    "title": "Wearable Technology",
+    "permalink": "/guides/Taxonomy/Electronics/Wearable Technology"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "docusaurus-plugin-google-tag-manager": {
+    "default": {
+      "containerId": "GTM-MXRHJT4S",
+      "id": "default"
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "guides": {
+      "path": "/guides",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/guides",
+          "mainDocId": "Getting started/Audience builder",
+          "docs": [
+            {
+              "id": "api-reference/async_tagging",
+              "path": "/guides/api-reference/async_tagging",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "api-reference/tagging_feedback",
+              "path": "/guides/api-reference/tagging_feedback",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Getting started/Audience builder",
+              "path": "/guides/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Getting started/Audience Listing",
+              "path": "/guides/Getting started/Audience Listing",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "guides",
+              "path": "/guides/",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Beauty/1",
+              "path": "/guides/Taxonomy/Beauty/1",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Appliances",
+              "path": "/guides/Taxonomy/Electronics/Appliances",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Audio Devices",
+              "path": "/guides/Taxonomy/Electronics/Audio Devices",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Cameras & Camcorders",
+              "path": "/guides/Taxonomy/Electronics/Cameras & Camcorders",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Car Electronics & GPS",
+              "path": "/guides/Taxonomy/Electronics/Car Electronics & GPS",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Computers & Tablets",
+              "path": "/guides/Taxonomy/Electronics/Computers & Tablets",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Health, Fitness & Personal Care",
+              "path": "/guides/Taxonomy/Electronics/Health, Fitness & Personal Care",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Home & Office",
+              "path": "/guides/Taxonomy/Electronics/Home & Office",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Mobile Phones",
+              "path": "/guides/Taxonomy/Electronics/Mobile Phones",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Overview",
+              "path": "/guides/Taxonomy/Electronics/Overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+              "path": "/guides/Taxonomy/Electronics/Smart Home, Security & Wi-Fi",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Sustainable Living",
+              "path": "/guides/Taxonomy/Electronics/Sustainable Living",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/TV & Home Theatre",
+              "path": "/guides/Taxonomy/Electronics/TV & Home Theatre",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Video Games",
+              "path": "/guides/Taxonomy/Electronics/Video Games",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Electronics/Wearable Technology",
+              "path": "/guides/Taxonomy/Electronics/Wearable Technology",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Fashion/Color Family",
+              "path": "/guides/Taxonomy/Fashion/Color Family",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Fashion/Overview",
+              "path": "/guides/Taxonomy/Fashion/Overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Fashion/Supported Attribute Family",
+              "path": "/guides/Taxonomy/Fashion/Supported Attribute Family",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Fashion/Title and Description",
+              "path": "/guides/Taxonomy/Fashion/Title and Description",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Grocerry/Category",
+              "path": "/guides/Taxonomy/Grocerry/Category",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Grocerry/Overview",
+              "path": "/guides/Taxonomy/Grocerry/Overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Home/Category",
+              "path": "/guides/Taxonomy/Home/Category",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "Taxonomy/Home/Overview",
+              "path": "/guides/Taxonomy/Home/Overview",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/guides/",
+                "label": "guides"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
