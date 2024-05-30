@@ -74,7 +74,7 @@ export default [
   },
   {
     path: '/guides',
-    component: ComponentCreator('/guides', 'f41'),
+    component: ComponentCreator('/guides', 'bf5'),
     routes: [
       {
         path: '/guides',
@@ -97,12 +97,6 @@ export default [
       {
         path: '/guides/api-reference/tagging_feedback',
         component: ComponentCreator('/guides/api-reference/tagging_feedback', '97a'),
-        exact: true,
-        sidebar: "defaultSidebar"
-      },
-      {
-        path: '/guides/Getting started/Audience Listing',
-        component: ComponentCreator('/guides/Getting started/Audience Listing', '432'),
         exact: true,
         sidebar: "defaultSidebar"
       },

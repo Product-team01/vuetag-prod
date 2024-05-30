@@ -88,33 +88,6 @@
                 "permalink": "/guides/"
               },
               "next": {
-                "title": "Audience listing",
-                "permalink": "/guides/Getting started/Audience Listing"
-              }
-            },
-            {
-              "unversionedId": "Getting started/Audience Listing",
-              "id": "Getting started/Audience Listing",
-              "title": "Audience listing",
-              "description": "In Audience Manager, view the list of “All Audiences” created in a table. From here you can either ‘Upload’ a Custom Audience or view Audience configuration & overlap details.",
-              "source": "@site/docs/guides/Getting started/Audience Listing.mdx",
-              "sourceDirName": "Getting started",
-              "slug": "/Getting started/Audience Listing",
-              "permalink": "/guides/Getting started/Audience Listing",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "title": "Audience listing",
-                "sidebar_position": 2
-              },
-              "sidebar": "defaultSidebar",
-              "previous": {
-                "title": "Getting started",
-                "permalink": "/guides/"
-              },
-              "next": {
                 "title": "Category",
                 "permalink": "/guides/Taxonomy/Beauty/1"
               }
@@ -163,8 +136,8 @@
               },
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "Audience listing",
-                "permalink": "/guides/Getting started/Audience Listing"
+                "title": "Getting started",
+                "permalink": "/guides/"
               },
               "next": {
                 "title": "Overview",
@@ -721,10 +694,6 @@
                   {
                     "type": "doc",
                     "id": "Getting started/Audience builder"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Getting started/Audience Listing"
                   }
                 ]
               },

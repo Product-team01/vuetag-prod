@@ -32,11 +32,6 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "Getting started/Audience Listing",
-              "path": "/guides/Getting started/Audience Listing",
-              "sidebar": "defaultSidebar"
-            },
-            {
               "id": "guides",
               "path": "/guides/",
               "sidebar": "defaultSidebar"

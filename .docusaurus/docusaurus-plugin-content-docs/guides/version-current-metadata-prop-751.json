@@ -28,12 +28,6 @@
             "label": "Getting started",
             "href": "/guides/",
             "docId": "Getting started/Audience builder"
-          },
-          {
-            "type": "link",
-            "label": "Audience listing",
-            "href": "/guides/Getting started/Audience Listing",
-            "docId": "Getting started/Audience Listing"
           }
         ]
       },
@@ -262,12 +256,6 @@
       "id": "Getting started/Audience builder",
       "title": "Getting started",
       "description": "The VueTag service is available through REST APIs and can be used in a variety of configurations based on the specific requirement.",
-      "sidebar": "defaultSidebar"
-    },
-    "Getting started/Audience Listing": {
-      "id": "Getting started/Audience Listing",
-      "title": "Audience listing",
-      "description": "In Audience Manager, view the list of “All Audiences” created in a table. From here you can either ‘Upload’ a Custom Audience or view Audience configuration & overlap details.",
       "sidebar": "defaultSidebar"
     },
     "guides": {
